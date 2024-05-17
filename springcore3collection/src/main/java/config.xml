@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans.xsd">
+           
+           <bean class="com.springcore3.springcore3collection.Employee" name="employee1">
+           			<property name="employeeId" value="20604"/>
+           			
+           			<property name="employeesExp">
+           						<list>
+            							<value>db manipulation</value>
+           								<value>Server maintance</value>
+           								<value>Web developement</value>
+           								<value>Internal software developement</value>
+           					
+           						</list>
+           			</property>
+           			
+           			<property name="employeeTech">
+           					<set>
+           							<value>AI and ML</value>
+           							<value>Django</value>
+           							<value>Springboot</value>
+           							<value>Javascript</value>
+           					</set>
+           			</property>
+           			
+           			<property name="employeeTechWithExp">
+           						<map>
+           								<entry key="Springboot" value="4 years"/>
+           								<entry key="Javascript" value="5 years"/>
+           								<entry key="AI and ML" value="1 year"/>
+           								<entry key="Django" value="0 year"/>
+           						</map>
+           			</property>
+           </bean>
+           
+           
+           </beans>
