@@ -5,6 +5,7 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
            http://www.springframework.org/schema/beans/spring-beans.xsd">
            
+
            <bean class="com.springcore3.springcore3collection.Employee" name="employee1">
            			<property name="employeeId" value="20604"/>
            			
