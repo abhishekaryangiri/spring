@@ -73,3 +73,72 @@
 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-18 20:10:16.841
 !MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-18 20:13:54.766
+!MESSAGE The artifact mysql:mysql-connector-java:jar:8.0.33 has been relocated to com.mysql:mysql-connector-j:jar:8.0.33: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-18 20:13:54.771
+!MESSAGE The artifact org.hibernate:hibernate-core:jar:6.6.2.Final has been relocated to org.hibernate.orm:hibernate-core:jar:6.6.2.Final
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-18 20:14:05.017
+!MESSAGE The artifact mysql:mysql-connector-java:jar:8.0.33 has been relocated to com.mysql:mysql-connector-j:jar:8.0.33: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-18 20:14:05.018
+!MESSAGE The artifact org.hibernate:hibernate-core:jar:6.6.2.Final has been relocated to org.hibernate.orm:hibernate-core:jar:6.6.2.Final
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-18 20:14:07.455
+!MESSAGE Classpath changed for project: quiz-apppp
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-18 20:14:07.692
+!MESSAGE Classpath changed for project: quiz-apppp
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-18 20:14:11.300
+!MESSAGE Classpath changed for project: quiz-apppp
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-18 20:14:37.844
+!MESSAGE The artifact mysql:mysql-connector-java:jar:8.0.33 has been relocated to com.mysql:mysql-connector-j:jar:8.0.33: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-18 20:14:37.845
+!MESSAGE The artifact org.hibernate:hibernate-core:jar:6.6.2.Final has been relocated to org.hibernate.orm:hibernate-core:jar:6.6.2.Final
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-18 20:14:37.985
+!MESSAGE The artifact mysql:mysql-connector-java:jar:8.0.33 has been relocated to com.mysql:mysql-connector-j:jar:8.0.33: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-18 20:14:37.986
+!MESSAGE The artifact org.hibernate:hibernate-core:jar:6.6.2.Final has been relocated to org.hibernate.orm:hibernate-core:jar:6.6.2.Final
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-18 20:14:39.584
+!MESSAGE Classpath changed for project: quiz-apppp
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-18 20:14:39.585
+!MESSAGE Boot project ADDED: quiz-apppp
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-18 20:14:40.936
+!MESSAGE The artifact mysql:mysql-connector-java:jar:8.0.33 has been relocated to com.mysql:mysql-connector-j:jar:8.0.33: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-18 20:14:40.939
+!MESSAGE The artifact org.hibernate:hibernate-core:jar:6.6.2.Final has been relocated to org.hibernate.orm:hibernate-core:jar:6.6.2.Final
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-18 20:14:42.177
+!MESSAGE Classpath changed for project: quiz-apppp
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-18 20:14:45.235
+!MESSAGE The artifact mysql:mysql-connector-java:jar:8.0.33 has been relocated to com.mysql:mysql-connector-j:jar:8.0.33: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-18 20:14:45.237
+!MESSAGE The artifact org.hibernate:hibernate-core:jar:6.6.2.Final has been relocated to org.hibernate.orm:hibernate-core:jar:6.6.2.Final
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-12-18 20:14:47.009
+!MESSAGE Classpath changed for project: quiz-apppp
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-18 20:14:49.270
+!MESSAGE The artifact mysql:mysql-connector-java:jar:8.0.33 has been relocated to com.mysql:mysql-connector-j:jar:8.0.33: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-18 20:14:49.272
+!MESSAGE The artifact org.hibernate:hibernate-core:jar:6.6.2.Final has been relocated to org.hibernate.orm:hibernate-core:jar:6.6.2.Final
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-18 20:14:49.513
+!MESSAGE The artifact mysql:mysql-connector-java:jar:8.0.33 has been relocated to com.mysql:mysql-connector-j:jar:8.0.33: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-12-18 20:14:49.514
+!MESSAGE The artifact org.hibernate:hibernate-core:jar:6.6.2.Final has been relocated to org.hibernate.orm:hibernate-core:jar:6.6.2.Final
