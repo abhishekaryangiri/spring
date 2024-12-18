@@ -1,5 +1,8 @@
 
 ---
+![api-testing](../resources/static/images/api-testing.gif)
+
+
 
 # QUIZ-APP: API Testing on Postman
 
