@@ -1,0 +1,5 @@
+package com.taskmanager.task_management_backend.model;
+
+public interface UserRepository extends MongoRepository<User, String> {
+    User findByEmail(String email);
+}

@@ -1,0 +1,4 @@
+1. Start a New Quiz
+
+Method: POST
+URL: http://localhost:8080/api/quiz/start/{userId}

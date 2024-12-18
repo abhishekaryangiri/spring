@@ -1,0 +1,15 @@
+package com.example.form.service;
+
+import org.springframework.stereotype.Service;
+
+import com.example.form.model.Form;
+import com.example.form.repository.FormRepository;
+
+@Service
+public class FormService {
+	 private FormRepository formRepository;
+	 public Form saveForm(Form form) {
+		return formRepository.save(form);
+		 
+	 }
+}

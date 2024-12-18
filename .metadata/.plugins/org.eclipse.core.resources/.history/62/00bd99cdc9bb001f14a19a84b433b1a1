@@ -1,0 +1,11 @@
+package com.taskmanager.task_management_backend.model;
+
+@Document(collection = "users")
+public class User {
+    @Id
+    private String id;
+    private String email;
+    private String password;
+
+    // Getters and Setters
+}

@@ -1,0 +1,23 @@
+INDEX VERSION 1.134
+C:\Users\msi\Documents\GitHub\spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4259968925.index
+\com.self.abc\src\main\java
+C:\Users\msi\Documents\GitHub\spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1788666508.index
+\mvcpro\src\main\java
+C:\Users\msi\Documents\GitHub\spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2317439425.index
+\quiz-app\src\main\resources
+C:\Users\msi\Documents\GitHub\spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4279129696.index
+\SpringMvc02BasicProjectJavaBasedConfig\src\main\resources
+C:\Users\msi\Documents\GitHub\spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1426362482.index
+\SpringMVC\src\main\java
+C:\Users\msi\Documents\GitHub\spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2414764963.index
+\quiz-app\src\main\resources
+C:\Users\msi\Documents\GitHub\spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1928753283.index
+\paas\src\main\java
+C:\Users\msi\Documents\GitHub\spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3209423970.index
+\SpringMvc01HelloWordProject\src\main\resources
+C:\Users\msi\Documents\GitHub\spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2818020110.index
+\quiz-app\src\main\resources
+C:\Users\msi\Documents\GitHub\spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4175992262.index
+\SpringMvc01HelloWordProject\src\main\resources
+C:\Users\msi\Documents\GitHub\spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4109983202.index
+\mvcpro\src\main\java

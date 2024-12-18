@@ -1,0 +1,25 @@
+# Spring Boot application name
+spring.application.name=task-management-backend
+
+# MongoDB database configuration
+spring.data.mongodb.uri=mongodb+srv://abhishekaryangiri:Abhishek@2024@2024@cluster0.mongodb.net/task_management_db?retryWrites=true&w=majority
+spring.data.mongodb.database=task_management_db
+
+# JWT Secret Key 
+jwt.secret-key=dummysecretkeyfortesting12345
+
+# File Upload directory
+file.upload-dir=/path/to/uploads
+
+# Server port (default 8080, change if needed)
+server.port=8080
+
+# Spring security settings
+spring.security.user.name=admin
+spring.security.user.password=admin123
+
+# Enable or disable Spring Security
+spring.security.enabled=true
+
+# Additional Spring configurations (can be modified as needed)
+logging.level.org.springframework=INFO

@@ -1,0 +1,20 @@
+1. Start a New Quiz
+
+Method: POST
+URL: http://localhost:8080/api/quiz/start/{userId}
+
+http://localhost:8080/api/quiz/start/123
+
+output: Quiz session started for user: 123
+
+status: 200 ok
+
+
+
+2. Get a Random Question
+Method: GET
+URL: http://localhost:8080/api/quiz/question
+
+
+
+status: 200 ok

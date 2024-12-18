@@ -1,0 +1,7 @@
+spring.application.name=form
+spring.data.mongodb.uri=mongodb+srv://abhishekaryan22g:DqHmZDSal9Jy0rWV@<cluster-url>/<database-name>?retryWrites=true&w=majority
+
+
+mongodb+srv://abhishekaryan22g:<db_password>@cluster0.p4t13.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+spring.data.mongodb.database=formdb
+
