@@ -1,6 +1,7 @@
 
 ---
-![api-testing](../resources/static/images/api-testing.gif)
+![api-testing](src/main/resources/static/images/api-testing.gif)
+
 
 
 
