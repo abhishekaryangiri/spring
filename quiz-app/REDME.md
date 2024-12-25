@@ -133,6 +133,7 @@ GET http://localhost:8080/api/quiz/result/1
 ## Tech Stack Used to Build This Quiz App API
 
 - **Spring Boot**: Framework for building the backend API.
+- **Java**:  Core programming language used for backend development
 - **MySQL**: Relational database for storing user data and quiz information.
 - **Hibernate**: ORM for interacting with the database.
 - **GitHub**: Version control and repository management.
@@ -142,3 +143,47 @@ GET http://localhost:8080/api/quiz/result/1
 - **REST API**: Architecture style for building the API endpoints.
 
 ---
+
+
+
+# How to Clone, Run, and Test the Spring Boot App
+
+## 1. Clone the Repository
+1. Install Git: [git-scm.com](https://git-scm.com/).
+2. Clone the repo:
+   ```bash
+   git clone <repository_url>
+   cd <repository_folder>
+   ```
+
+## 2. Run the Application
+1. Ensure Java (JDK 11+) and Maven are installed.
+2. Build the project:
+   ```bash
+   mvn clean install
+   ```
+3. Run the app:
+   ```bash
+   mvn spring-boot:run
+   ```
+   Or:
+   ```bash
+   java -jar target/<app_name>.jar
+   ```
+
+## 3. Test with Postman
+1. Install Postman: [postman.com](https://www.postman.com/).
+2. Use `http://localhost:8080` as the base URL.
+3. Test endpoints:
+   - **GET**: Enter URL and click **Send**.
+   - **POST**: Add JSON payload in the **Body** tab under `raw > JSON`.
+   - **PUT/DELETE**: Follow similar steps with respective HTTP methods.
+
+4. Add headers if required (e.g., `Authorization` for tokens).
+
+## 4. Optional
+- Ensure the database is running if required.
+- Update `application.properties` with database credentials or configs.
+
+```
+
