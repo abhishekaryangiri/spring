@@ -11,6 +11,9 @@
            http://www.springframework.org/schema/mvc
            https://www.springframework.org/schema/mvc/spring-mvc.xsd">
 
+<!-- <context:component-scan base-package="springmvc.controller"/> -->
+<!-- y kewal controller package ko hi open krena niche wala mpringmvc packg ko , aue isme sare base pckgss h -->
+
 <context:component-scan base-package="springmvc.controller"/>
 
 <bean name="ViewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">

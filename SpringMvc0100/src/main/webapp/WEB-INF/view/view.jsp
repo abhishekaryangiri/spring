@@ -4,12 +4,12 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Homepage</title>
+<title>View</title>
 </head>
 <body>
  <!--  navbar  -->
 <%@ include file="navbar.jsp" %> 
-<p>Homepage</p>
 
+<h3>View</h3>
 </body>
 </html>
