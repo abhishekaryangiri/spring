@@ -14,7 +14,7 @@
 <%@ include file="navbar.jsp" %> 
 
   <div class="container my-5">
-<h2 class="mb-4">Fill the Form</h2>
+<h2 class="mb-4">Fill the Form </h2>
     <form action="formsubmission" method="post">
       <div class="mb-3">
         <label for="email" class="form-label">Email address</label>

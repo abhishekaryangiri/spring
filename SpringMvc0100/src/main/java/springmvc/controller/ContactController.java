@@ -9,15 +9,22 @@ import org.springframework.web.bind.annotation.RequestParam;
 @Controller
 public class ContactController {
 	
-	@RequestMapping("/ma")
+	@RequestMapping("/rp")
 	public String showFormUsingModelAttribute() {
-		return "ma";
+		return "rp";
 	}
 	
 	@RequestMapping("/form")
 	public String showForm() {
 		return "form";
 	}
+	
+	@RequestMapping("/ma")
+	public String modelAttribute() {
+		return "ma";
+	}
+	
+
 	
 	@RequestMapping(path="/formsubmission", method = RequestMethod.POST)
 	public String handleForm(
@@ -29,9 +36,9 @@ public class ContactController {
 		System.out.println(userName + userEmail + password);
 		
 		
-			model.addAttribute("userName", "userName");
-			model.addAttribute("userEmail", "userEmail");
-			model.addAttribute("password", "password");
+			model.addAttribute("name", userName);
+			model.addAttribute("email", userEmail);
+			model.addAttribute("password", password);
 		
 		return "view";
 		

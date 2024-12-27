@@ -20,16 +20,16 @@ public class HomeController {
 	}
 
 	@RequestMapping("/home")
-	public String nikehome() {
+	public String mvcHome() {
 		System.out.println("home is running");
 		return "index";
 	}
-
-	/* SpringMvc0100/about */
+	
+	
 	@RequestMapping("/about")
-	public String abouthome() {
+	public String aboutMethod() {
 		return "about";
-		}
+	}
 	
 	@RequestMapping("/explang")
 	public ModelAndView expressionLanguage() {

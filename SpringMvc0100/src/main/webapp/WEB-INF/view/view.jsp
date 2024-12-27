@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+    <%@page isELIgnored="false" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -11,5 +12,9 @@
 <%@ include file="navbar.jsp" %> 
 
 <h3>View</h3>
+
+<h4>${name}</h4>
+<h4>${email}</h4>
+<h4>${password}</h4>
 </body>
 </html>
