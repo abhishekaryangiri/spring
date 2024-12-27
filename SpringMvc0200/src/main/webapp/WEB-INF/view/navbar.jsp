@@ -8,7 +8,7 @@
 </head>
 <body>
 <!-- navbar.jsp -->
-<div style="display: flex; justify-content: center; gap: 10px; background-color: #54B4D3; padding: 5px">
+<div style="display: flex; justify-content: center; gap: 10px; background-color: grey; padding: 5px">
     
     
             <!-- Home  Button -->
