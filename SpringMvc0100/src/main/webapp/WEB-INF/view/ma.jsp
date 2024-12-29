@@ -1,21 +1,24 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <!DOCTYPE html>
+<%@page isELIgnored="false" %>
 <html>
 <head>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
 <meta charset="UTF-8">
-<title>Model Attribute Form</title>
+<title>Model Attribute </title>
 </head>
 <body>
  <!--  navbar  -->
-<%@ include file="navbar.jsp" %> 
+ 
+  <%@ include file="navbar.jsp" %>
 
   <div class="container my-5">
-<h2 class="mb-4">Fill the Form </h2>
-    <form action="formsubmission" method="post">
+<h2 class="mb-4 text-center"  >${hdr} </h2>
+<p class="mb-4 text-center" >${description}</p>
+    <form action="masub" method="post">
       <div class="mb-3">
         <label for="email" class="form-label">Email address</label>
         <input type="email" class="form-control" id="email" placeholder="Enter your email" name="userEmail">
@@ -31,8 +34,11 @@
         <input type="password" class="form-control" id="password" placeholder="Enter your password" name= "password">
       </div>
 
-
-      <button type="submit" class="btn btn-info">Submit</button>
+<div class="d-flex justify-content-center align-items-center">
+<button type="submit" class="btn btn-outline-info">Submit</button>
+</div>
+      
+      
     </form>
   </div>
 

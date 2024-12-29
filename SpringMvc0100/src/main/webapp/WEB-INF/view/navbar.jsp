@@ -19,7 +19,7 @@
     
     
     <!-- Db Button -->
-<!--     <a href="/SpringMvc0100/db" 
+<!--     <a href="/SpringMvc0200/db" 
        style="text-decoration: none; background-color: white; padding: 8px 8px;  color: black; font-size: 10px; border-radius: 5px; display: inline-block;">
        DB
     </a> -->
@@ -55,11 +55,18 @@
        ModelAttribute
     </a>
 
-    <!-- About Button -->
+    <!-- form Button -->
     <a href="/SpringMvc0100/form" 
        style="text-decoration: none; background-color: white; padding: 8px 8px;  color: black; font-size: 10px; border-radius: 5px; display: inline-block;">
        Form
     </a>
+    
+        <!-- reqparamform Button -->
+    <a href="/SpringMvc0100/rpf" 
+       style="text-decoration: none; background-color: white; padding: 8px 8px;  color: black; font-size: 10px; border-radius: 5px; display: inline-block;">
+       Rpf
+    </a>
+    
     
 
 </div>

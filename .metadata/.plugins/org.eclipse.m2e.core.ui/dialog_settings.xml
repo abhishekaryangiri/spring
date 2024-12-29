@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\msi\Documents\GitHub\spring\SpringMvc0100\src\main\java\springmvc\controller\ModelAttrController.java"/>
 			<item value="C:\Users\msi\Downloads\63.SpringMVC2LoginValid\src\main\java\forgetpass\entity"/>
 			<item value="C:\Users\msi\Documents\GitHub\spring\spring-webmvc\src\main\java\com\viewdata\controller\HomeController.java"/>
 		</list>
@@ -27,17 +28,23 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
-			<item value="com.abhi.SpringMvc02BasicProjectJavaBasedConfig"/>
-			<item value="com.abhi.SpringMvc01HelloWordProject"/>
-			<item value="com.abhi.SpringMvcProject"/>
+			<item value="com.spring.mvc.SpringMvc0400"/>
+			<item value="com.spring.mvc.SpringMvc0300"/>
+			<item value="com.spring.mvc.SpringMvc0200"/>
+			<item value="com.spring.mvc.SpringMvc0100"/>
+			<item value="com.spring.mvc.SpringMvc01"/>
+			<item value="com.spring.mvc.springmvc"/>
 		</list>
 		<list key="groupId">
-			<item value="com.abhi"/>
+			<item value="com.spring.mvc"/>
 		</list>
 		<list key="artifactId">
-			<item value="SpringMvc02BasicProjectJavaBasedConfig"/>
-			<item value="SpringMvc01HelloWordProject"/>
-			<item value="SpringMvcProject"/>
+			<item value="SpringMvc0400"/>
+			<item value="SpringMvc0300"/>
+			<item value="SpringMvc0200"/>
+			<item value="SpringMvc0100"/>
+			<item value="SpringMvc01"/>
+			<item value="springmvc"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

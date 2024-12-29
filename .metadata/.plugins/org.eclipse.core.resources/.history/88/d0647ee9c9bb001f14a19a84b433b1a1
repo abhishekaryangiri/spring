@@ -1,7 +1,0 @@
-package com.taskmanager.task_management_backend.model;
-
-import java.util.List;
-
-public interface TaskRepository extends MongoRepository<Task, String> {
-    List<Task> findByUserId(String userId);
-}

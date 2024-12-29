@@ -15,7 +15,7 @@
 
   <div class="container my-5">
 <h2 class="mb-4">Fill the Form</h2>
-    <form action="formsubmission" method="post">
+    <form action="formsub" method="post">
       <div class="mb-3">
         <label for="email" class="form-label">Email address</label>
         <input type="email" class="form-control" id="email" placeholder="Enter your email" name="userEmail">

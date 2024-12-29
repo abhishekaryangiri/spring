@@ -1,6 +1,0 @@
-package com.taskmanager.task_management_backend.dto;
-
-public class RegisterRequest {
-    private String email;
-    private String password;
-}

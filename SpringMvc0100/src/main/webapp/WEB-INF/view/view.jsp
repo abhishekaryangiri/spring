@@ -8,10 +8,10 @@
 <title>View</title>
 </head>
 <body>
- <!--  navbar  -->
-<%@ include file="navbar.jsp" %> 
+  <!--  navbar  -->
+ <%@ include file="navbar.jsp" %> 
 
-<h3>View</h3>
+<h3>form View</h3>
 
 <h4>${name}</h4>
 <h4>${email}</h4>

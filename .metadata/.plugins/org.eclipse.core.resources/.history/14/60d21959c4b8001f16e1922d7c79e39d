@@ -1,8 +1,0 @@
-package com.example.form.model;
-
-import org.springframework.data.mongodb.core.mapping.Document;
-
-@Document
-public class Form {
-
-}

@@ -1,3 +1,0 @@
-spring.application.name=form
-spring.data.mongodb.uri=mongodb://localhost:27017/formdb
-spring.data.mongodb.database=formdb

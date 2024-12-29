@@ -1,8 +1,0 @@
-package com.taskmanager.task_management_backend.dto;
-
-public class LoginRequest {
-    private String email;
-    private String password;
-
-    // Getters and Setters
-}

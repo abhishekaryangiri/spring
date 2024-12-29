@@ -10,6 +10,8 @@ import springmvc.model.User;
 
 @Controller
 public class RequestParamWithBeanController {
+	
+	
 	@RequestMapping("/rp")
 	public String modelAttribute() {
 		System.out.println("reg param form running");

@@ -10,8 +10,9 @@
 <body>
   <!--  navbar  -->
  <%@ include file="navbar.jsp" %> 
-
-<h3>View (@RequestParam)</h3>
+<h3 class="text-center ">${companyName}</h3>
+<p class="text-center">${tagline}</p>
+<h3>View Form(@ModelAttribute)</h3>
 
 <h4>${user.userName}</h4>
 <h4>${user.userEmail}</h4>

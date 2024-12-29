@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+    <%@page isELIgnored="false" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -13,7 +14,8 @@
  <!--  navbar  -->
  
   <%@ include file="navbar.jsp" %>
-
+<h6 class="text-center fs-4">${companyName}</h6>
+<p class="text-center fs-6">${tagline}</p>
   <div class="container my-5">
 <h2 class="mb-4">Fill the Form (@ModelAttribute) </h2>
     <form action="masub" method="post">
