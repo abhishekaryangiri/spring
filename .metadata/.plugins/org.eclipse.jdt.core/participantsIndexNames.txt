@@ -37,3 +37,5 @@ C:\Users\msi\Documents\GitHub\spring\.metadata\.plugins\org.eclipse.jst.jsp.core
 \quiz-app\src\main\resources
 C:\Users\msi\Documents\GitHub\spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3490526498.index
 \springmvc\src\main\resources
+C:\Users\msi\Documents\GitHub\spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3445131485.index
+\SpringMvc0101RegistrationForm\src\main\resources
