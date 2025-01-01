@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\msi\Documents\GitHub\spring\SpringMvc0100"/>
 			<item value="C:\Users\msi\Documents\GitHub\spring\SpringMvc0100\src\main\java\springmvc\controller\ModelAttrController.java"/>
 			<item value="C:\Users\msi\Downloads\63.SpringMVC2LoginValid\src\main\java\forgetpass\entity"/>
 			<item value="C:\Users\msi\Documents\GitHub\spring\spring-webmvc\src\main\java\com\viewdata\controller\HomeController.java"/>
@@ -28,6 +29,7 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.spring.mvc.SpringMvc0101RegistrationForm"/>
 			<item value="com.spring.mvc.SpringMvc0400"/>
 			<item value="com.spring.mvc.SpringMvc0300"/>
 			<item value="com.spring.mvc.SpringMvc0200"/>
@@ -39,6 +41,7 @@
 			<item value="com.spring.mvc"/>
 		</list>
 		<list key="artifactId">
+			<item value="SpringMvc0101RegistrationForm"/>
 			<item value="SpringMvc0400"/>
 			<item value="SpringMvc0300"/>
 			<item value="SpringMvc0200"/>

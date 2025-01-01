@@ -1,21 +1,51 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.spring.mvc</groupId>
   <artifactId>SpringMvc0101RegistrationForm</artifactId>
   <packaging>war</packaging>
   <version>0.0.1-SNAPSHOT</version>
+  
   <name>SpringMvc0101RegistrationForm Maven Webapp</name>
   <url>http://maven.apache.org</url>
+  
   <dependencies>
+
+
+    <!-- Spring Web MVC -->
     <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>3.8.1</version>
-      <scope>test</scope>
+        <groupId>org.springframework</groupId>
+        <artifactId>spring-webmvc</artifactId>
+        <version>5.3.30</version> 
     </dependency>
+
+    <!-- JSTL Dependency -->
+    <dependency>
+        <groupId>javax.servlet</groupId>
+        <artifactId>javax.servlet-api</artifactId>
+        <version>4.0.1</version>  <!-- You can choose a suitable version -->
+        <scope>provided</scope>
+    </dependency>
+
+<dependency>
+    <groupId>javax.servlet</groupId>
+    <artifactId>jstl</artifactId>
+    <version>1.2</version>
+</dependency>
+
+
+
+<dependency>
+    <groupId>org.junit.jupiter</groupId>
+    <artifactId>junit-jupiter</artifactId>
+    <version>5.8.2</version>
+    <scope>test</scope>
+</dependency>
+
   </dependencies>
   <build>
     <finalName>SpringMvc0101RegistrationForm</finalName>
   </build>
 </project>
+
