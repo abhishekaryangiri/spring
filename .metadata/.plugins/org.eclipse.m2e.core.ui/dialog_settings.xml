@@ -29,6 +29,8 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.spring.mvc.SpringMvc0103RegistrationFormJavaBased"/>
+			<item value="com.spring.mvc.SpringMvc0201RegistrationFormOrm"/>
 			<item value="com.spring.mvc.SpringMvc0101RegistrationForm"/>
 			<item value="com.spring.mvc.SpringMvc0400"/>
 			<item value="com.spring.mvc.SpringMvc0300"/>
@@ -41,6 +43,8 @@
 			<item value="com.spring.mvc"/>
 		</list>
 		<list key="artifactId">
+			<item value="SpringMvc0103RegistrationFormJavaBased"/>
+			<item value="SpringMvc0201RegistrationFormOrm"/>
 			<item value="SpringMvc0101RegistrationForm"/>
 			<item value="SpringMvc0400"/>
 			<item value="SpringMvc0300"/>

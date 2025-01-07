@@ -11,8 +11,6 @@
   <url>http://maven.apache.org</url>
   
   <dependencies>
-
-
     <!-- Spring Web MVC -->
     <dependency>
         <groupId>org.springframework</groupId>

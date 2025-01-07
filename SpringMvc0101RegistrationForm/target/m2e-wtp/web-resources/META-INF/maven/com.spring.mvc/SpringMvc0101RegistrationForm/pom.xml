@@ -36,6 +36,29 @@
 
 
 
+    <!-- Spring ORM Dependency -->
+    <dependency>
+        <groupId>org.springframework</groupId>
+        <artifactId>spring-orm</artifactId>
+        <version>5.2.3.RELEASE</version>
+    </dependency>
+
+    <!-- Hibernate Core Dependency -->
+    <dependency>
+        <groupId>org.hibernate</groupId>
+        <artifactId>hibernate-core</artifactId>
+        <version>5.4.2.Final</version>
+    </dependency>
+
+    <!-- MySQL Connector Dependency -->
+    <dependency>
+        <groupId>mysql</groupId>
+        <artifactId>mysql-connector-java</artifactId>
+        <version>5.1.30</version>
+    </dependency>
+    
+
+
 <dependency>
     <groupId>org.junit.jupiter</groupId>
     <artifactId>junit-jupiter</artifactId>

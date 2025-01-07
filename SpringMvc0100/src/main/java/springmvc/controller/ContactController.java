@@ -42,8 +42,11 @@ public class ContactController {
 	}
 
 	@RequestMapping(path = "/formsub", method = RequestMethod.POST)
-	public String handleForm(@RequestParam("userName") String userName, @RequestParam("userEmail") String userEmail,
-			@RequestParam("password") String password, Model model)
+	public String handleForm(
+			@RequestParam("userName") String userName, 
+			@RequestParam("userEmail") String userEmail,
+			@RequestParam("password") String password, 
+			Model model)
 
 	{
 		System.out.println(userName + userEmail + password);

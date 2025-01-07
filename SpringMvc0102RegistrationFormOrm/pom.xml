@@ -1,0 +1,81 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.spring.mvc</groupId>
+  <artifactId>SpringMvc0201RegistrationFormOrm</artifactId>
+  <packaging>war</packaging>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>SpringMvc0102RegistrationFormOrm Maven Webapp</name>
+  <url>http://maven.apache.org</url>
+  
+  <dependencies>
+
+    <!-- JSTL Dependency -->
+    <dependency>
+        <groupId>javax.servlet</groupId>
+        <artifactId>javax.servlet-api</artifactId>
+        <version>4.0.1</version>  <!-- You can choose a suitable version -->
+        <scope>provided</scope>
+    </dependency>
+
+	<dependency>
+	    <groupId>javax.servlet</groupId>
+	    <artifactId>jstl</artifactId>
+	    <version>1.2</version>
+	</dependency>
+
+    <!-- Spring Web MVC -->
+    <dependency>
+        <groupId>org.springframework</groupId>
+        <artifactId>spring-webmvc</artifactId>
+        <version>5.3.24</version> 
+    </dependency>
+    
+    <!-- Spring ORM Dependency -->
+    <dependency>
+        <groupId>org.springframework</groupId>
+        <artifactId>spring-orm</artifactId>
+        <version>5.3.24</version>
+    </dependency>
+
+ <!--  transaction management  dependency-->
+    <dependency>
+	    <groupId>org.springframework</groupId>
+	    <artifactId>spring-tx</artifactId>
+	    <version>5.3.24</version>
+	</dependency>
+
+    <!-- Hibernate Core Dependency -->
+    <dependency>
+        <groupId>org.hibernate</groupId>
+        <artifactId>hibernate-core</artifactId>
+        <version>5.5.7.Final</version>
+    </dependency>
+
+    <!-- MySQL Connector Dependency -->
+    <dependency>
+        <groupId>mysql</groupId>
+        <artifactId>mysql-connector-java</artifactId>
+        <version>8.0.29</version>
+    </dependency>
+    
+	<dependency>
+	    <groupId>org.junit.jupiter</groupId>
+	    <artifactId>junit-jupiter</artifactId>
+	    <version>5.8.2</version>
+	    <scope>test</scope>
+	</dependency>
+	
+	<dependency>
+	    <groupId>net.bytebuddy</groupId>
+	    <artifactId>byte-buddy</artifactId>
+	    <version>1.11.8</version>
+	</dependency>
+
+
+  </dependencies>
+  
+  <build>
+    <finalName>SpringMvc0201RegistrationFormOrm</finalName>
+  </build>
+</project>
