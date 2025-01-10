@@ -57,6 +57,10 @@
 		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
 		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\Users\msi\Downloads\spring_framework-master\spring_framework-master\10_Emp_Crud_Project"/>
+			<item value="C:\Users\msi\Downloads\spring_framework-master\spring_framework-master\9_Spring_Inteceptor"/>
+			<item value="C:\Users\msi\Downloads\spring_framework-master\spring_framework-master\8_SpringMVC_ORM"/>
+			<item value="C:\Users\msi\Downloads\spring_framework-master\spring_framework-master\5_Spring_ORM"/>
 			<item value="C:\Users\msi\Downloads\Spring MVC course code\springmvc"/>
 			<item value="C:\Users\msi\Downloads\Spring MVC course code\springmvcsearch"/>
 			<item value="C:\Users\msi\Downloads\Spring MVC course code\springmvcexmaple"/>

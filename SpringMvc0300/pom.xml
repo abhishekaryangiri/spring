@@ -7,15 +7,120 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>SpringMvc0300 Maven Webapp</name>
   <url>http://maven.apache.org</url>
-  <dependencies>
+  
+ <dependencies>
+
+    <!-- JSTL Dependency -->
     <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>3.8.1</version>
-      <scope>test</scope>
+        <groupId>javax.servlet</groupId>
+        <artifactId>javax.servlet-api</artifactId>
+        <version>4.0.1</version>  <!-- You can choose a suitable version -->
+        <scope>provided</scope>
     </dependency>
+
+	<dependency>
+	    <groupId>javax.servlet</groupId>
+	    <artifactId>jstl</artifactId>
+	    <version>1.2</version>
+	</dependency>
+
+    <!-- Spring Web MVC -->
+    <dependency>
+        <groupId>org.springframework</groupId>
+        <artifactId>spring-webmvc</artifactId>
+        <version>5.3.24</version> 
+    </dependency>
+    
+    <!-- Spring ORM Dependency -->
+    <dependency>
+        <groupId>org.springframework</groupId>
+        <artifactId>spring-orm</artifactId>
+        <version>5.3.24</version>
+    </dependency>
+
+ <!--  transaction management  dependency-->
+    <dependency>
+	    <groupId>org.springframework</groupId>
+	    <artifactId>spring-tx</artifactId>
+	    <version>5.3.24</version>
+	</dependency>
+
+    <!-- Hibernate Core Dependency -->
+	<dependency>
+	    <groupId>org.hibernate</groupId>
+	    <artifactId>hibernate-core</artifactId>
+	    <version>5.6.15.Final</version> <!-- or the latest compatible version -->
+	</dependency>
+	
+	 <!-- or the latest compatible version -->
+	<dependency>
+	    <groupId>net.bytebuddy</groupId>
+	    <artifactId>byte-buddy</artifactId>
+	    <version>1.14.4</version>
+	</dependency>
+
+    <!-- MySQL Connector Dependency -->
+    <dependency>
+        <groupId>mysql</groupId>
+        <artifactId>mysql-connector-java</artifactId>
+        <version>8.0.33</version>
+    </dependency>
+    
+    
+    
+    
+		<!--    spring Security-->
+	<dependency>
+	    <groupId>org.springframework.security</groupId>
+	    <artifactId>spring-security-config</artifactId>
+	    <version>5.3.13.RELEASE</version>
+	</dependency>
+	<dependency>
+	    <groupId>org.springframework.security</groupId>
+	    <artifactId>spring-security-web</artifactId>
+	    <version>5.3.13.RELEASE</version>
+	</dependency>
+
+    
+	<dependency>
+	    <groupId>org.junit.jupiter</groupId>
+	    <artifactId>junit-jupiter</artifactId>
+	    <version>5.8.2</version>
+	    <scope>test</scope>
+	</dependency>
+	
   </dependencies>
-  <build>
-    <finalName>SpringMvc0300</finalName>
-  </build>
+
+                <!-- Compiler Plugin -->
+<build>
+  <plugins>
+        <!-- Maven Compiler Plugin -->
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-compiler-plugin</artifactId>
+            <version>3.11.0</version>
+            <configuration>
+                <source>1.8</source>
+                <target>1.8</target>
+            </configuration>
+        </plugin>
+
+        <!-- Maven Surefire Plugin for Unit Testing -->
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-surefire-plugin</artifactId>
+            <version>3.0.0-M9</version>
+        </plugin>
+
+        <!-- Maven War Plugin for Packaging -->
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-war-plugin</artifactId>
+            <version>3.4.0</version>
+        </plugin>
+    </plugins>
+   
+   
+    <finalName>/</finalName>
+ 		 </build>
 </project>

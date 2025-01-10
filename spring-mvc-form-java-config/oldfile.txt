@@ -1,0 +1,38 @@
+userForm.jsp:
+
+ <%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+    <form action="submitForm" method="POST">
+        Name: <input type="text" name="name" /><br/>
+        Mobile: <input type="text" name="mobile" /><br/>
+        Email: <input type="text" name="email" /><br/>
+        <input type="submit" value="Submit" />
+    </form>
+</body>
+</html> 
+
+
+
+
+success.jsp: 
+
+
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+    <h2>User successfully saved!</h2>
+</body>
+</html>

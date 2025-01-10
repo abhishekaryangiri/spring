@@ -29,6 +29,8 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.spring.mvc.spring_mvc_form_java_config"/>
+			<item value="com.spring.mvc.form_java_based_spring_mvc"/>
 			<item value="com.spring.mvc.SpringMvc0103RegistrationFormJavaBased"/>
 			<item value="com.spring.mvc.SpringMvc0201RegistrationFormOrm"/>
 			<item value="com.spring.mvc.SpringMvc0101RegistrationForm"/>
@@ -43,6 +45,8 @@
 			<item value="com.spring.mvc"/>
 		</list>
 		<list key="artifactId">
+			<item value="spring-mvc-form-java-config"/>
+			<item value="form-java-based-spring-mvc"/>
 			<item value="SpringMvc0103RegistrationFormJavaBased"/>
 			<item value="SpringMvc0201RegistrationFormOrm"/>
 			<item value="SpringMvc0101RegistrationForm"/>
@@ -85,6 +89,14 @@
 		</list>
 	</section>
 	<section name="org.eclipse.m2e.core.pom.overview">
+		<list key="ciManagementUrl">
+		</list>
+		<list key="ciManagementSystem">
+		</list>
+		<list key="issueManagementSystem">
+		</list>
+		<list key="issueManagementUrl">
+		</list>
 	</section>
 	<section name="org.eclipse.m2e.core.pom.dependencies">
 	</section>
