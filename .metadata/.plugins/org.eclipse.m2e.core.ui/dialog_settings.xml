@@ -130,6 +130,8 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="C:\Users\msi\Downloads\talent-recruitment"/>
+			<item value="C:\Users\msi\Downloads\talentacquisitionapp"/>
 			<item value="C:\Users\msi\Downloads\springboot-02--city-weather-info"/>
 			<item value="C:\Users\msi\Downloads\springboot-01-city-list-api"/>
 			<item value="C:\Users\msi\Documents\GitHub\spring\quiz-app"/>
